@@ -1,0 +1,1 @@
+{"version":3,"file":"IDeleteUser.js","sourceRoot":"","sources":["../../src/application/IDeleteUser.ts"],"names":[],"mappings":"","sourcesContent":["export interface IDeleteUserService {\r\n    delete(id: string): Promise<any>\r\n}"]}

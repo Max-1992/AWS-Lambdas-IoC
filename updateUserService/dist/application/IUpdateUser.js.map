@@ -1,0 +1,1 @@
+{"version":3,"file":"IUpdateUser.js","sourceRoot":"","sources":["../../src/application/IUpdateUser.ts"],"names":[],"mappings":"","sourcesContent":["// Interface\r\nimport { IUserDto } from \"./IUserDto\";\r\n\r\nexport interface IUpdateUserService {\r\n    update(id: string, user: IUserDto): Promise<any>\r\n}"]}

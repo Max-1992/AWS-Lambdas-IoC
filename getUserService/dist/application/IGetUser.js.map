@@ -1,0 +1,1 @@
+{"version":3,"file":"IGetUser.js","sourceRoot":"","sources":["../../src/application/IGetUser.ts"],"names":[],"mappings":"","sourcesContent":["// Interface\r\nimport { IUserDto } from \"./IUserDto\";\r\n\r\nexport interface IGetUserService {\r\n    get(id: string): Promise<IUserDto>\r\n}"]}

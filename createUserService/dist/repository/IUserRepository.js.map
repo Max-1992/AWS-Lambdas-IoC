@@ -1,0 +1,1 @@
+{"version":3,"file":"IUserRepository.js","sourceRoot":"","sources":["../../src/repository/IUserRepository.ts"],"names":[],"mappings":"","sourcesContent":["// Interface\r\nimport { IUserDto } from \"../application/IUserDto\";\r\n\r\n// Class\r\nimport { User } from \"../entities/user\";\r\n\r\nexport interface IUserRepository {\r\n    save(user: User): Promise<IUserDto>\r\n}"]}

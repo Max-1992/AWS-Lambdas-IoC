@@ -1,0 +1,1 @@
+{"version":3,"file":"IUserRepository.js","sourceRoot":"","sources":["../../src/repository/IUserRepository.ts"],"names":[],"mappings":"","sourcesContent":["export interface IUserRepository {\r\n    deleteById(id: string): Promise<void>\r\n}"]}

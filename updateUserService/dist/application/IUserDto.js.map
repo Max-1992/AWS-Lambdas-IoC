@@ -1,0 +1,1 @@
+{"version":3,"file":"IUserDto.js","sourceRoot":"","sources":["../../src/application/IUserDto.ts"],"names":[],"mappings":"","sourcesContent":["export interface IUserDto {\r\n    id: string\r\n    name: string\r\n    email: string\r\n    password: string\r\n    role: string\r\n    registrationDate: Date\r\n}"]}

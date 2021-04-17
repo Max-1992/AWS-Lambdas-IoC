@@ -1,0 +1,1 @@
+{"version":3,"file":"IUserRepository.js","sourceRoot":"","sources":["../../src/repository/IUserRepository.ts"],"names":[],"mappings":"","sourcesContent":["// Interface\r\nimport { IUserDto } from \"../application/IUserDto\";\r\n\r\n\r\nexport interface IUserRepository {\r\n    getById(id: string): Promise<IUserDto>\r\n}"]}

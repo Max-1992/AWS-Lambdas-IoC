@@ -1,0 +1,1 @@
+{"version":3,"file":"ICreateUser.js","sourceRoot":"","sources":["../../src/application/ICreateUser.ts"],"names":[],"mappings":"","sourcesContent":["// Interface\r\nimport { IUserDto } from \"./IUserDto\";\r\n\r\nexport interface ICreateUserService {\r\n    create(user: IUserDto): Promise<IUserDto>\r\n}"]}
